@@ -1,0 +1,64 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.headingDiv {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.headingDiv h2 {
+    font-size: max(20px, 2vw);
+}
+
+.likeImg {
+    height: 25px;
+    width: 25px;
+}
+
+.details {
+    font-size: max(17px, 1.5vw);
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mood {
+    color: skyblue !important;
+}
+
+.footerLeft {
+    font-weight: bold;
+    font-size: 13px;
+    color: #585858;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px;
+    font-size: 13px;
+    color: #757575;
+}
